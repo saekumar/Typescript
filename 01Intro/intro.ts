@@ -1,6 +1,14 @@
-// let user = {
-//   name: 'saikumar',
-//   age: 22,
-// }
-// console.log(user.name)
-// console.log('saikumar')
+let greet: string = 'Hello World'
+console.log(greet)
+const lower = greet.toLowerCase()
+console.log(lower)
+
+let hero: string
+
+function getHero(): string {
+  return 'hero'
+}
+hero = getHero()
+console.log(hero)
+
+export {}
